@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/list_products"
+            android:icon="@color/black"
+            android:title="@string/list_products"
+            />
+        <item
+            android:id="@+id/nav_add_product"
+            android:icon="@color/black"
+            android:title="@string/add_product" />
+        <item
+            android:id="@+id/info"
+            android:icon="@color/black"
+            android:title="@string/info" />
+    </group>
+
+    <item android:title="@string/action">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@color/white"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>

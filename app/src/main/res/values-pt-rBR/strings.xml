@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Receitas</string>
+    <string name="action_settings">Configurações</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Primeiro Fragmento</string>
+    <string name="second_fragment_label">Segundo Fragmento</string>
+    <string name="next">Próximo</string>
+    <string name="previous">Anterior</string>
+
+    <string name="hello_first_fragment">Olá primeiro fragmento</string>
+    <string name="hello_second_fragment">Olá segundo fragmento. Arg: %1$s</string>
+    <string name="hello_blank_fragment">Olá fragmento em branco</string>
+    <string name="button_resgister">Cadastrar</string>
+    <string name="button_sign_up">Entrar</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_name">Email</string>
+    <string name="text_view_welcome_app">Titulo</string>
+    <string name="list_product">Lista de Produtos</string>
+    <string name="add_product">Adicionar Produtos</string>
+    <string name="logout">Sair</string>
+    <string name="button_login">Login</string>
+    <string name="login">Login</string>
+
+    <string-array name="add_prouct_spinner_category">
+        <item>Escolha uma categoria</item>
+        <item>Doces</item>
+        <item>Salgados</item>
+        <item>Fit</item>
+        <item>Pães</item>
+    </string-array>
+
+    <!-- MENU DRAWER -->
+    <string name="navigation_drawer_open">Abrir menu Drawer</string>
+    <string name="navigation_drawer_close">Fechar menu Drawer</string>
+    <string name="person_png">pessoa.png</string>
+    <string name="action">Ação</string>
+    <string name="exit">Sair</string>
+    <string name="list_products">Lista de produtos</string>
+
+    <string name="register">Cadastrar</string>
+    <string name="logo_png">logo.png</string>
+    <string name="email_example">Jenifer.goulart15@gmail.com</string>
+    <string name="password_example">*******************************</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="forgot_your_password">Esqueceu sua senha?</string>
+    <string name="name">Nome</string>
+    <string name="name_example">Jenifer Santanna</string>
+    <string name="confirm_password">Confirme sua senha</string>
+
+    <string name="password_forgot_fail">Por favor, digite apenas o email</string>
+    <string name="password_forgot_successful">Email de confirmação enviado</string>
+    <string name="sign_in_fail">Email e/ou senha inválidos</string>
+    <string name="sign_in_successful">Bem-Vindo(a)</string>
+    <string name="empty_fail">Email ou senha em branco</string>
+    <string name="register_fail">Email já em uso ou inválido</string>
+    <string name="register_successful">Usuário criado com sucesso</string>
+    <string name="img_png">img.png</string>
+
+    <string name="title">Titulo</string>
+    <string name="title_example">Pizza</string>
+    <string name="description">Descrição</string>
+    <string name="description_example">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet lacus sapien, imperdiet semper augue volutpat suscipit. Sed id sollicitudin nulla. Sed volutpat ex ut maximus interdum. Ut facilisis erat quis ipsum hendrerit sagittis. Nam eleifend est in mi vehicula dapibus. Nullam volutpat varius risus sed facilisis. Curabitur a lobortis felis. Donec vitae lorem quis nibh tincidunt ullamcorper.</string>
+    <string name="price">Preço</string>
+    <string name="price_example">R$40</string>
+    <string name="pick_a_picture">Tire uma Foto</string>
+    <string name="category">Categoria</string>
+    <string name="product_successful">O seu produto foi adicionado com sucesso</string>
+    <string name="product_fail">Erro ao efeturar cadastro de produto</string>
+    <string name="click">Clicou</string>
+    <string name="no_products">Não há produtos</string>
+    <string name="info">info</string>
+    <string name="app_description">Revenu é um aplicativo criado com o intuíto de que todos possamos agregar aquela receita da vovó que não resistimos. Dando assim a possibilidade de viajarmos de cultura em cultura. Uma das ferramentas que possuímos é a oportunidade que todos que instalam o aplicativo possam compartilhar suas receitas e aprender novos sabores.</string>
+    <string name="dev_name">Devs: Henrique Camargo, Jenifer Goulart</string>
+    <string name="image_fail">Falha ao cortar imagem.</string>
+</resources>

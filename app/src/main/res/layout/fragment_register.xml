@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_background_layout"
+    android:padding="20dp"
+    tools:context=".fragments.FragmentRegister">
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        style="@style/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/email_example"
+        android:background="@drawable/shape_edittext"
+        android:drawableEnd="@drawable/ic_email_24"
+        android:drawableRight="@drawable/ic_email_24"
+        android:hint="@string/email_example"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/textViewEmail" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        style="@style/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextEmail" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/password_example"
+        android:background="@drawable/shape_edittext"
+        android:drawableEnd="@drawable/ic_baseline_lock_24"
+        android:drawableRight="@drawable/ic_baseline_lock_24"
+        android:hint="@string/password_example"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@id/textViewPassword" />
+
+    <TextView
+        android:id="@+id/textViewPasswordConfirm"
+        style="@style/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/confirm_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword" />
+
+    <EditText
+        android:id="@+id/editTextPasswordConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/password_example"
+        android:background="@drawable/shape_edittext"
+        android:drawableEnd="@drawable/ic_baseline_lock_24"
+        android:drawableRight="@drawable/ic_baseline_lock_24"
+        android:hint="@string/password_example"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@id/textViewPasswordConfirm" />
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        style="@style/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_button"
+        android:text="@string/register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPasswordConfirm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

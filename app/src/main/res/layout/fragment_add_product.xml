@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_background_layout"
+    android:padding="20dp"
+    tools:context=".fragments.FragmentAddProduct">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewTitle"-->
+<!--        style="@style/login_text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/title"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTittle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:autofillHints=""-->
+<!--        android:textColor="#fdc772"-->
+<!--        android:background="@drawable/shape_edittext"-->
+<!--        android:hint="@string/title_example"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:textColorHint="@color/gray400"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/textViewTitle" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewDescription"-->
+<!--        style="@style/login_text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/description"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/editTextTittle" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextAddProductDescription"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:autofillHints=""-->
+<!--        android:textColor="#fdc772"-->
+<!--        android:background="@drawable/shape_edittext"-->
+<!--        android:gravity="start|top"-->
+<!--        android:hint="@string/description_example"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        android:paddingTop="8dp"-->
+<!--        android:scrollbars="vertical"-->
+<!--        android:textColorHint="@color/gray400"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textViewDescription" />-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinnerAddProduct"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:entries="@array/add_prouct_spinner_category"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editTextAddProductDescription" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewPrice"-->
+<!--        style="@style/login_text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/price"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/spinnerAddProduct" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextPrice"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:autofillHints=""-->
+<!--        android:background="@drawable/shape_edittext"-->
+<!--        android:ems="10"-->
+<!--        android:textColor="#fdc772"-->
+<!--        android:hint="@string/price_example"-->
+<!--        android:inputType="numberDecimal"-->
+<!--        android:textColorHint="@color/gray400"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textViewPrice" />-->
+
+<!--    <com.theartofdev.edmodo.cropper.CropImageView-->
+<!--        android:id="@+id/imageViewAddProduct"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/editTextPrice"-->
+<!--        tools:srcCompat="@tools:sample/avatars" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/addProductButtonPicture"-->
+<!--        style="@style/login_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/shape_button"-->
+<!--        android:text="@string/pick_a_picture"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/buttonAddProduct"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/editTextPrice" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonAddProduct"-->
+<!--        style="@style/login_button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@drawable/shape_button"-->
+<!--        android:text="@string/add_product"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageViewAddProduct" />-->
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        style="?android:attr/progressBarStyle"-->
+<!--        android:layout_width="75dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/buttonAddProduct" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

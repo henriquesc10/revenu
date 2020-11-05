@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Revenu</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_resgister">Resgister</string>
+    <string name="button_sign_up">Sign In</string>
+    <string name="button_login">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="login">login</string>
+    <string name="text_view_welcome_app">Tittle</string>
+    <string name="list_product">List Product</string>
+    <string name="add_product">Add Product</string>
+    <string name="logout">logout</string>
+
+    <string-array name="add_prouct_spinner_category">
+        <item>Choose a category</item>
+        <item>Sweets</item>
+        <item>Party Snacks</item>
+        <item>Fit</item>
+        <item>Bread</item>
+    </string-array>
+
+    <!-- MENU DRAWER -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="person_png">person.png</string>
+    <string name="action">Action</string>
+    <string name="exit">Log out</string>
+    <string name="list_products">List Products</string>
+
+    <string name="register">Register</string>
+    <string name="logo_png">logo.png</string>
+    <string name="email_example">Jenifer.goulart15@gmail.com</string>
+    <string name="password_example">*******************************</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_your_password">Forgot your Password?</string>
+    <string name="name">Name</string>
+    <string name="name_example">Jenifer Santanna</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="password_forgot_fail">Please, type only your email</string>
+    <string name="password_forgot_successful">Confirmation email sent</string>
+    <string name="sign_in_fail">Email or Password invalid</string>
+    <string name="sign_in_successful">Welcome</string>
+    <string name="empty_fail">Email or Password empty</string>
+    <string name="register_fail">Email already in use or invalid</string>
+    <string name="register_successful">User created with successful</string>
+    <string name="img_png">img.png</string>
+    <string name="title">Title</string>
+    <string name="title_example">Pizza</string>
+    <string name="description">Description</string>
+    <string name="description_example">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet lacus sapien, imperdiet semper augue volutpat suscipit. Sed id sollicitudin nulla. Sed volutpat ex ut maximus interdum. Ut facilisis erat quis ipsum hendrerit sagittis. Nam eleifend est in mi vehicula dapibus. Nullam volutpat varius risus sed facilisis. Curabitur a lobortis felis. Donec vitae lorem quis nibh tincidunt ullamcorper.</string>
+    <string name="price">Price</string>
+    <string name="price_example">R$40</string>
+    <string name="pick_a_picture">Pick a Picture</string>
+    <string name="category">Category</string>
+    <string name="product_successful">Product added</string>
+    <string name="product_fail">Product add fail</string>
+    <string name="click">Click</string>
+    <string name="no_products">Have no products</string>
+    <string name="info">info</string>
+    <string name="app_description">Revenu is an application created with the intention that we can all add our grandmas recipe that we couldnt resist.  Thus giving the possibility to travel from culture to culture.  One of the tools we have is the opportunity for everyone who installs the app to share their recipes and try new flavors.</string>
+    <string name="dev_name">Devs: Henrique Camargo, Jenifer Goulart</string>
+    <string name="image_fail">Fail to cut image.</string>
+</resources>

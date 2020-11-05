@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "784682933340",
+    "firebase_url": "https://login-b4cb7.firebaseio.com",
+    "project_id": "login-b4cb7",
+    "storage_bucket": "login-b4cb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784682933340:android:22296af860e46f8aa21a99",
+        "android_client_info": {
+          "package_name": "com.example.receitas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784682933340-uu7f1d1rvc4f03926l88rgqbalis0t7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIe_KFKlDxuxqqmE8tcd9d88cYN4hecmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784682933340-uu7f1d1rvc4f03926l88rgqbalis0t7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
